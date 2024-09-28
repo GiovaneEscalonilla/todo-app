@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none; /* Remove marcadores padrão da lista */
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+/* Class to apply the strikethrough effect */
+.strikethrough {
+    text-decoration: line-through;
+}
