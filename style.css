@@ -26,7 +26,13 @@ button {
 button:hover {
     background-color: darkred;
 }
-/* Class to apply the strikethrough effect */
-.strikethrough {
-    text-decoration: line-through;
+ /* Estilos para o modo escuro */
+.dark-mode {
+    background-color: #333;
+    color: rgb(20, 5, 5);
 }
+/* Labels for checked inputs */
+input:checked + label {
+    color: green;
+    text-decoration: line-through;
+  }
